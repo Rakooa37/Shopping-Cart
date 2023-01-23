@@ -12,9 +12,9 @@ export default function Products(props){
         setIsClicked(!isClicked);
     }
 
-    const movies = [{title: "Moonlight 2016", price: "49.99", inStock:"true", image: "/images/Moonlight.jpg", qty:0, id: 0},
-                    {title: "Tenet 2020", price: "29.99", inStock:"true", image: "/images/Tenet.jpg", qty:0, id: 1},
-                    {title: "Inception 2010", price: "49.99", inStock:"true", image: "/images/Inception.jpg", qty:0, id: 2},
+    const movies = [{title: "Moonlight 2016", price: "49.99", inStock:"true", image: "./images/Moonlight.jpg", qty:0, id: 0},
+                    {title: "Tenet 2020", price: "29.99", inStock:"true", image: "./images/Tenet.jpg", qty:0, id: 1},
+                    {title: "Inception 2010", price: "49.99", inStock:"true", image: "./images/Inception.jpg", qty:0, id: 2},
                     {title: "Interstelar 2014", price: "59.99", inStock:"true", image: "/images/Interstelar.jpg", qty:0, id: 3},
                     {title: "I Origins 2014", price: "39.99", inStock:"true", image: "/images/IOrigins.jpg  ", qty:0, id: 4},
                     {title: "Predestination 2014", price: "29.99", inStock:"true", image: "/images/Predestination.jpg", qty:0, id: 5},

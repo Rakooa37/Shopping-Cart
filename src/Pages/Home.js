@@ -14,7 +14,7 @@ export default function Home(){
             <Navabar shoppingCartDisplay = "none"></Navabar>
             <div className = "home-page" style={backgroundImage}>
                 <div className="home-page__wrapper">
-                    <div className="home-page__title" >The best posters store online</div>
+                    <div className="home-page__title" >The best posters store online in the world</div>
                     <Link to="/products"><button className="home-page__button">Discover</button></Link>
                 </div>
             </div>
