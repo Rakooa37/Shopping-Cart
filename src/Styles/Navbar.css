@@ -1,0 +1,53 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.navbar__title{
+    color: rgb(74, 255, 212);
+    font-size: 3rem;
+    text-align: center;
+}
+
+.navbar__links{
+    display: flex;
+    color:white;
+    
+}
+
+.navbar__links > *{
+    padding: 2rem;
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    cursor: pointer;
+
+}
+
+.navbar__links--shopping-cart{
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+}
+
+.navbar__links--shopping-cart--quantity{
+    padding: 2rem 0;
+}
+
+.navbar__links > *:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:640px){
+    .navbar__links > *{
+        padding: 1rem;   
+        font-size: large;
+    }
+}
